@@ -1,0 +1,52 @@
+body{
+    
+    background-color: #000000;
+
+	height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-image: url("./images/Y2K\ BG.webp");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	font-family: courier New;
+	font-size : fixed;
+	text-shadow: 1px 1px 2px rgb(122, 122, 122);
+    font-family: Gill Sans, sans-serif;
+}
+
+.ovale {
+    width: 70%;
+    height: auto;
+    -webkit-border-radius: 50%/ 50%;
+    -moz-border-radius:    50% / 50%; 
+    border-radius:         50% / 50%; 
+    text-shadow: 1px 1px 2px rgb(122, 122, 122);
+    object-position: center;
+    margin: auto;
+    border: #000000 solid 3px;
+}
+
+.user {
+    width: 4%;
+    border-radius: 5%;
+}
+ .textcent {
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(255,255,255);
+    text-decoration-thickness: 10%;
+ }
+
+ .topbar{
+    width:100%;
+    height: 20%;
+    border: #000000 solid 3px;
+    background-color: rgba(92, 141, 36, 0.7 );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
