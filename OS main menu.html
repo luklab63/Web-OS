@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 
 	<head>	
@@ -10,31 +11,44 @@
     <body>
 
         <div class="topbar"> 
-            <p>Y2K os</p>
-              <script>
+            <img src="./images/LogoY2K.png" class="logo" height="70 px">
 
-                function updateTime() {
-                    var currentTime = new Date().toLocaleString();
-                    var timeText = document.querySelector("#timeElement");
-                    timeText.innerHTML = currentTime;
-                }
-                setInterval(updateTime, 1000);
+            <script>
+
+                setInterval(function () {
+                document.querySelector("#timeElement").innerHTML = new Date().toLocaleString();
+                }, 1000);
 
             </script>
-                    <p id="timeElement">
-                    Time
-                    </p>
+
+            <p id="timeElement" >
+            Time
+            </p>
+
             <div class="user"> 
             <img src="./images/image.webp" class="ovale" /> 
-        </div>
-        </div>
+            </div>
 
-
+        </div>
 
         
+        <div id="mydiv">
+            
+            <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+            <div id="mydivheader">
+                <p>Click here to move </p> <p style="cursor: pointer" id="welcomeclose">    Close</p>
 
+            </div>
+            <p>Move</p>
+            <p>this</p>
+            <p>DIV</p>
+        </div>
+        <script src="dragable.js"></script>
         
+
+         <p style="cursor: pointer" id="welcomeopen">ThomasOS</p>
          <p> my <a href="https://github.com/luklab63">github</a> </p>
+         
 	</body>
 
 </html>

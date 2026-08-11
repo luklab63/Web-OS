@@ -13,9 +13,9 @@ body{
     background-size: cover;
 	
 	font-family: courier New;
-	font-size : fixed;
 	text-shadow: 1px 1px 2px rgb(122, 122, 122);
     font-family: Gill Sans, sans-serif;
+    
 }
 
 .ovale {
@@ -44,9 +44,32 @@ body{
     width:100%;
     height: 20%;
     border: #000000 solid 3px;
-    background-color: rgba(92, 141, 36, 0.7 );
+    background: linear-gradient(to bottom, #212121b3, #afff01b3);
     display: flex;
     justify-content: space-between;
     align-items: center;
 
  }
+
+
+ #timeElement {
+    color: rgb(175, 255, 1);
+    font-size: 150%;
+ }
+
+
+ #mydiv {
+  position: absolute;
+  z-index: 9;
+  background: linear-gradient(to bottom, #212121b3, #afff01b3);
+  border: 1px solid #196e04;
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: rgba(175,755,1,07);
+  color: #000000;
+}
